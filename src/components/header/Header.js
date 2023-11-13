@@ -4,7 +4,8 @@ import Logo from "./mini_component/Logo";
 
 const Header = () =>{
     return(
-        <header>
+        <header className="header">
+        <nav className="headeer-nav"></nav>
             <Logo/>
         </header>
     )

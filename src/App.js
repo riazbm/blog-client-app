@@ -7,7 +7,10 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <Routes>
-       <BasicLayout/>
+     <Route path='/' element = {<BasicLayout/>}>
+
+     </Route>
+       
     </Routes>
   );
 }

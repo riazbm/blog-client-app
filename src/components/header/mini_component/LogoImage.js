@@ -1,9 +1,10 @@
 import React from "react";
+import CableIcon from '@mui/icons-material/Cable';
 
 
 const LogoImage = () =>{
     return(
-        <img src="" alt=""/>
+        <CableIcon className="Logo-icon"/>
     )
 }
 

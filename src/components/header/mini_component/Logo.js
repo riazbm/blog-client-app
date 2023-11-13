@@ -5,7 +5,10 @@ import LogoImage from "./LogoImage";
 
 const Logo = () =>{
     return(
-        <Link></Link>
+        <Link className="Logo">
+            <LogoImage/>
+            Bloggify
+        </Link>
     )
 }
 

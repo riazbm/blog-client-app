@@ -4,7 +4,7 @@ import React from "react";
 const Menu = () =>{
     return(
         <nav>
-            <Menu/>
+            Menu
         </nav>
     )
 }

@@ -4,11 +4,18 @@ import Dropdown from "./Dropdown";
 
 
 const Menu = () =>{
-    const [show, setshow]  = useState(false)
+    const [show, setShow]  = useState(false)
+
+    const handleShow = (e) =>{
+        setShow(!show)
+        
+        
+    }
+
     return(
         <nav className="menu">
             
-            <ToggleButton/>
+            <ToggleButton show={show} handleShow={handleShow}/>
             <Dropdown/>
         </nav>
     )

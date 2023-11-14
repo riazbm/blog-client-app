@@ -28,7 +28,14 @@ body{
     color: var(--black77);
     height: 1000px;
     margin: 0;
-    background-color: pink;
+    
 }
 /* 
-components */
+modules styles */
+.header{
+  position: fixed;
+}
+.header-nav{
+  padding: 0.5em 1em;
+}
+ 

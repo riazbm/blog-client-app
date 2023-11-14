@@ -106,9 +106,34 @@ svg.logo-icon{
   top: 3.5em;
   background-color: var(--purple50);
   padding: 1em 0.5em;
-  
+  display: none;
   width: 50vw;
-  
+  transform: translate(0em);
+}
+
+.menu.is-open .menu-dropdown{
+  display: block;
+  animation: slide-left 0.8s ease-in-out;
+}
+
+
+
+
+
+
+
+
+/* Animations */
+@keyframes slide-left{
+  0%{
+    transform: translate(16em);
+    opacity: 0;
+  }
+
+  100%{
+    transform: translate(0em);
+    opacity: 1;
+  }
 }
 
 

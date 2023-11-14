@@ -82,7 +82,20 @@ svg.logo-icon{
   border: none;
   overflow: hidden;
   background: transparent;
-
+  outline: none;
+  cursor: pointer;
 }
+
+.menu-toggle::after{
+  text-indent: 0;
+  position: absolute;
+  top: -0.2em;
+  right: 0.1em;
+  content: "\2261";
+  font-size: 1.4em;
+  color: var(--purple800);
+}
+
+
 
  

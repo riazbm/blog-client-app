@@ -64,4 +64,25 @@ svg.logo-icon{
 
 }
 
+/* menu module styles */
+.menu{
+  position: relative;
+  
+}
+
+.menu-toggle{
+  position: absolute;
+  top: 0.1em;
+  right: 0.2em;
+  white-space: nowrap;
+  width: 1em;
+  height: 1em;
+  text-indent: 5em;
+  font-size: 3em;
+  border: none;
+  overflow: hidden;
+  background: transparent;
+
+}
+
  

@@ -28,4 +28,7 @@ body{
     color: var(--black77);
     height: 1000px;
     margin: 0;
+    background-color: pink;
 }
+/* 
+components */

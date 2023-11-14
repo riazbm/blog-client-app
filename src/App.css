@@ -44,6 +44,18 @@ modules styles */
 .logo{
   display: flex;
   text-decoration: none;
+  font-size: 1.6em;
+  color: var(--black2B);
+  align-items: center;
+  gap: 0.2em;
+  font-weight: 500;
+
+  
+}
+svg.logo-icon{
+  font-size: 2em;
+  color: var(--purple800);
+
 }
 
  

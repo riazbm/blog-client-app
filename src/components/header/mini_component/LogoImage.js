@@ -4,7 +4,7 @@ import CableIcon from '@mui/icons-material/Cable';
 
 const LogoImage = () =>{
     return(
-        <CableIcon className="Logo-icon"/>
+        <CableIcon className="logo-icon"/>
     )
 }
 

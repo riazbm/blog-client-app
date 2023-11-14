@@ -32,10 +32,18 @@ body{
 }
 /* 
 modules styles */
+
+/* header module */
 .header{
   position: fixed;
 }
 .header-nav{
   padding: 0.5em 1em;
 }
+/* logo module */
+.logo{
+  display: flex;
+  text-decoration: none;
+}
+
  
